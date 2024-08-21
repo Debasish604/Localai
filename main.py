@@ -3,7 +3,7 @@ import requests
 import json
 
 def get_response_from_api(message):
-    url = "http://localhost:11434/api/chat"
+    url = "http:// 127.0.0.1:11434/api/chat"
     headers = {"Content-Type": "application/json"}
     payload = {
         "model": "llama3.1:8b",
