@@ -52,4 +52,4 @@ with gr.Blocks() as demo:
     msg.submit(chat_with_bot, [msg, chatbot], [msg, chatbot])
 
 if __name__ == "__main__":
-    demo.launch(server_port=3008)
+    demo.launch(share=True)
